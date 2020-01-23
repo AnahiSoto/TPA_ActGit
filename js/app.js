@@ -48,7 +48,7 @@ class UI{
         const app = document.querySelector('#app');
         container.insertBefore(div, app);
         setTimeout(function(){
-            document.querySelector('.alert').remove;
+            document.querySelector('.alert').remove();
         }, 3000);
 
     }
